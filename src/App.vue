@@ -1,7 +1,7 @@
 <template>
   <router-view v-slot="{ Component, route }">
     <transition name="app-route" mode="out-in">
-      22
+      22333
       <component :is="Component" :key="route.fullPath" />
     </transition>
   </router-view>
