@@ -1,0 +1,4 @@
+interface:
+  display_name: "WM Blog Rules"
+  short_description: "项目级前端开发规则，约束模块化、中文注释和 CSS 变量使用。"
+  default_prompt: "在 wm-blog 项目中按既定开发规则实现或修改代码。"

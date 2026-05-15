@@ -1,0 +1,60 @@
+:root {
+  /* 全局颜色变量 */
+  --color-page-bg: #07111d;
+  --color-page-bg-soft: #102032;
+  --color-page-bg-muted: #15273b;
+  --color-surface: #101c2c;
+  --color-surface-muted: rgba(16, 28, 44, 0.78);
+  --color-surface-float: rgba(17, 31, 48, 0.72);
+  --color-surface-strong: #16263a;
+  --color-primary-deep: #020812;
+  --color-primary: #d9e4f6;
+  --color-secondary: #8ca5c3;
+  --color-accent: #f0b35b;
+  --color-accent-deep: #d68b2a;
+  --color-accent-soft: rgba(240, 179, 91, 0.16);
+  --color-cyan: #73d8e7;
+  --color-text-strong: #f5f1e8;
+  --color-text-secondary: #9cadc4;
+  --color-text-muted: #708198;
+  --color-text-inverse-soft: rgba(245, 241, 232, 0.76);
+  --color-border-soft: rgba(140, 165, 195, 0.18);
+  --color-border-strong: rgba(245, 241, 232, 0.12);
+  --color-border-warm: rgba(240, 179, 91, 0.26);
+
+  /* 字体大小变量 */
+  --font-size-caption: 0.8rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.08rem;
+  --font-size-xl: 1.4rem;
+  --font-size-display: clamp(3rem, 7vw, 6rem);
+
+  /* 间距变量 */
+  --space-xs: 0.4rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 2.5rem;
+  --space-4xl: 4rem;
+
+  /* 圆角变量 */
+  --radius-lg: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2rem;
+  --radius-full: 999px;
+
+  /* 阴影变量 */
+  --shadow-soft: 0 22px 64px rgba(0, 0, 0, 0.24);
+  --shadow-card: 0 16px 36px rgba(0, 0, 0, 0.24);
+  --shadow-card-dark: 0 24px 48px rgba(0, 0, 0, 0.34);
+  --shadow-hero: 0 32px 96px rgba(0, 0, 0, 0.34);
+
+  /* 动画时长变量 */
+  --motion-base: 220ms;
+  --motion-slow: 420ms;
+
+  /* 字体族变量 */
+  --font-family-body: 'Avenir Next', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-family-display: 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif;
+}
